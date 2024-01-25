@@ -19,7 +19,7 @@ public class Canvas
     {
         if(canvasSingleton == null) {
             canvasSingleton = new Canvas("Sean's house", 1000, 500,
-                    Color.blue);
+                     new Color(173, 216, 230));
         }
         canvasSingleton.setVisible(true);
         return canvasSingleton;
